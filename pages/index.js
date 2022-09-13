@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Register from '../components/Register'
 import RegistrationForm from '../components/RegistrationForm'
 
 export default function Home() {
@@ -14,7 +15,9 @@ export default function Home() {
 
       <Header/>
        {/* Registration Form */}
-      <RegistrationForm/>
+       
+      {/* <RegistrationForm/> */}
+      <Register/>
 
       
 
